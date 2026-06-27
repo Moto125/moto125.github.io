@@ -6,8 +6,8 @@ import Works from "@/components/features/works/Works";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-100 font-sans">
-      <main className="flex flex-col flex-1 w-full max-w-3xl flex-col items-center justify-between bg-main">
+    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-100 dark:bg-neutral-800 font-sans">
+      <main className="flex flex-col flex-1 w-full max-w-3xl items-center justify-between bg-white dark:bg-neutral-900">
         {/* トップ */}
         <Top />
         <Scroll />
@@ -19,7 +19,7 @@ export default function Home() {
         <Scroll />
         {/* リンク */}
         <Links />
-        <p className="py-16">Thank you for visiting my portfolio!</p>
+        <p className="py-16 text-main">Thank you for visiting my portfolio!</p>
       </main>
     </div>
   );
