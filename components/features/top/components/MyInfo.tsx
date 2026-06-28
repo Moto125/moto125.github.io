@@ -2,6 +2,7 @@
 import Image from "next/image"
 import { SiX } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
+import { SiQiita } from "react-icons/si";
 
 export default function MyInfo() {
   return (
@@ -13,9 +14,10 @@ export default function MyInfo() {
         <p className="text- text-sm">フロントエンドエンジニア</p>
         <h1 className="text-4xl font-bold text-accent dark:text-white">Omachi Sae</h1>
         {/* リンクボタン */}
-        <div className="flex flex-row items-center gap-0">
-          <SiGithub style={{ fontSize: 35 }} onClick={() => window.open("https://github.com/Moto125", "_blank")} />
-          <SiX style={{ fontSize: 35 }} onClick={() => window.open("https://twitter.com/Motooyie", "_blank")} />
+        <div className="flex flex-row items-center gap-2">
+          <SiGithub style={{ fontSize: 30 }} onClick={() => window.open("https://github.com/Moto125", "_blank")} />
+          <SiX style={{ fontSize: 30 }} onClick={() => window.open("https://twitter.com/Motooyie", "_blank")} />
+          <SiQiita style={{ fontSize: 30 }} onClick={() => window.open("https://qiita.com/moto_125", "_blank")} />
         </div>
       </div>
     </div>

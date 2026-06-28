@@ -1,5 +1,4 @@
 import Scroll from "@/components/common/Scroll";
-import Links from "@/components/features/links/Links";
 import Profile from "@/components/features/profile/Profile";
 import Top from "@/components/features/top/Top";
 import Works from "@/components/features/works/Works";
@@ -16,9 +15,6 @@ export default function Home() {
         <Scroll />
         {/* 開発したもの */}
         <Works />
-        <Scroll />
-        {/* リンク */}
-        <Links />
         <p className="py-16 text-main">Thank you for visiting my portfolio!</p>
       </main>
     </div>
