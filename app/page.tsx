@@ -1,7 +1,7 @@
-import Scroll from "@/components/common/Scroll";
-import Profile from "@/components/features/profile/Profile";
-import Top from "@/components/features/top/Top";
-import Works from "@/components/features/works/Works";
+import Scroll from '@/app/components/common/Scroll';
+import Profile from '@/app/components/features/profile/Profile';
+import Top from '@/app/components/features/top/Top';
+import Works from '@/app/components/features/works/Works';
 
 export default function Home() {
   return (
